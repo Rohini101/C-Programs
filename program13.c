@@ -2,10 +2,12 @@
 
 void Display(int iNo)
 {
-    int iCnt=0;
-    for(iCnt=1;iCnt<=iNo;iCnt++)
+    int iCnt=0; 
+    iCnt=1;
+    while(iCnt<=iNo)
     {
-        printf("Jay Hanuman\n");
+        printf("%d\n",iCnt);
+        iCnt++;
 
     }
 }
